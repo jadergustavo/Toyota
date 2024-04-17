@@ -1,0 +1,172 @@
+header{
+  background:#070707;
+  color: #f5f3f5;
+  padding: 30px;
+  text-align: center ;
+
+}
+
+body{
+  background: whitesmoke;
+}
+nav ul{
+  background-color: red ;
+  list-style-type: none ;
+  width: 100%;
+  text-align: center;
+}
+
+nav li{
+  display: inline-flex;
+}
+
+nav a{
+  color:#f5f3f5;
+  text-decoration:none;
+  padding: 8px;
+  width: 190px;
+}
+
+nav a:hover{
+  color: #d5b942;
+
+}
+
+header h1{
+  font-family: "Arial", cursive ;
+}
+
+header nav{
+  font-family: "Shadows Into Light", cursive;
+  font-weight:400;
+  font-style: normal;
+}
+
+main{
+  font-family: "Arial",cursive;
+  max-width:1000px ;
+  margin:40px auto;
+  padding:0 20px;
+}
+
+h2{
+  text-align: center;
+  padding: 10px;
+}
+
+.lista-productos{
+  display: flex;
+  flex-wrap: wrop;
+  justify-contet: space-between;
+}
+
+.productos{
+  width: 50%; 
+  background-color: #fff;
+  padding:20px 25px 20px 25px;
+  margin: 20px;
+  box-shadow:0 0 10px rgba(350, 0, 0, 0.7);
+  transition: box-shadow 0.8s ease-in-out;
+  text-align: center;n
+}
+
+.productos:hover{
+  box-shadow: 0 0 30px rgba(300, 0, 0, 0.8);
+}
+
+
+.productos img{
+  width:220px;
+  height:220px;
+  display: block;
+  transition: tranform 0.5s ease-in-out;
+  margin: 0 auto 20px;
+}
+
+.productos:hover img{
+  transform: scale(1.1);
+
+}
+
+.productos button{
+  display: block;
+  margin: 0 auto;
+  background-color: red;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  transition:  background-color 0,3s ease-in-out ;
+
+}
+
+.productos button:hover{
+  background-color: #070707;
+}
+
+footer{
+  background-color: #070707;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  flex-wrap: wrap;
+  font-size: 20px;
+
+
+}
+
+.links-informativos{
+  width: 200px;
+}
+
+.links-informativos ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.links-informativos li a{
+  text-decoration: none;
+  color: white;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.redes-sociales{
+  width: 300px;
+}
+
+.redes-sociales img{
+  width: 50px;
+  height: 50px;
+  margin: 15px;
+}
+
+.redes-sociales li{
+  display: inline-flex;
+  margin-right: 10px;
+  margin: auto;
+}
+
+.redes-sociales img:hover{
+  transform: scale(1.6);
+
+}
+
+.info-contacto{
+  color: white;
+  font-size: 20px;
+}
+
+#Todos{
+  background-color: white;
+  color: black;
+}
+
+#Todos:hover{
+  color: red;
+}
